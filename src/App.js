@@ -7,6 +7,7 @@ function App() {
   }
   return (
     <div className="App">
+      <h1>GGGG</h1>
       <ul>
         {data.map((item) => (
           <li key={item.id}>{item.name}</li>
